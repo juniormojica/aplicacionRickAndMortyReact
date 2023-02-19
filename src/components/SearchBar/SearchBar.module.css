@@ -1,0 +1,23 @@
+.tittle {
+    font-size: 5rem;
+    background-color:var(--button-color);
+    color: white;
+ 
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.searchContainer {
+    height: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchInput {
+    width: 30%;
+    height: 2.4em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}

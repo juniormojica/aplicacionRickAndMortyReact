@@ -1,0 +1,62 @@
+.cardContainer {
+    padding: 4rem;
+    border: 2px solid white;
+    margin: 0.2em;
+    border-radius: 0.5em;
+    background: var(--button-color);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cardImg {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.close {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 20%;
+    background-color: rgb(129, 85, 139);
+    width: 20%;
+margin: auto;
+}
+.close:hover {
+    color: rgb(0, 255, 13);
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 20%;
+    background-color: rgb(129, 85, 139);
+    width: 20%;
+    margin: auto;
+}
+.charName {
+    text-decoration: none;
+    color:var(--font-color)
+}
+
+.charName:hover {
+    color: white
+}
+.likeContainer{ 
+    display: flex;
+    justify-content: flex-end;
+}
+.addFavorite{
+    width: 30%;
+    padding: 0.5rem;
+    color: white;
+     background-color: rgb(129, 85, 139);
+    
+}
+
+.addFavorite:hover{
+
+    background-color: rgb(121, 85, 129);
+}
+
+.favoriteStatus{
+    background-color: red;
+}

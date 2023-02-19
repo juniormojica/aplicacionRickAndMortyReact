@@ -1,0 +1,21 @@
+.navContainer {
+    width: 100%;
+
+}
+
+.linksContainer {
+    display: flex;
+
+}
+
+.aboutLink,
+.homeLink,.favorites {
+    color: white;
+    padding: 0.7em;
+    text-decoration: none;
+    font-size: 1.2rem;
+    background-color: var(--button-color);
+    margin: 0.5rem;
+     border-radius: 3rem;
+
+}
