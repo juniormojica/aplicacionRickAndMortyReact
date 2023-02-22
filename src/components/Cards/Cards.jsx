@@ -11,17 +11,12 @@ export default function Cards(props) {
 
    const dispatch = useDispatch()
    useEffect(() => {
-      console.log("Se montó");
-      dispatch(getAllCharacters())
 
+      dispatch(getAllCharacters())
 
    }, [])
 
    const characters = useSelector((state) => state.characters)
-
-
-   console.log(characters);
-
 
 
    return (
@@ -31,8 +26,6 @@ export default function Cards(props) {
             characters && characters.map((char, index) => {
                return (<div key={index}> <Card
                   name={char.name}
-
-
                   image={char.image}
                   onClose={props.onClose}
                   id={char.id}
@@ -46,18 +39,3 @@ export default function Cards(props) {
 
 
 }
-{/* {<h1>{characters.characters[2].name}</h1>} */ }
-
-// {
-//    characters.map((char, index) => {
-//       return (<div key={index}> <Card
-//          name={char.name}
-//          specie={char.species}
-//          gender={char.gender}
-//          image={char.image}
-//          onClose={props.onClose}
-//          id={char.id}
-//       />
-//       </div>)
-//    })
-// } * /}

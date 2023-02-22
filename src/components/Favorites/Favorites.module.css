@@ -18,3 +18,30 @@
   
 
 }
+.mainContainer {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr ;
+    gap: 1rem;
+}
+
+.favContainer {
+
+    border: 2px solid white;
+  
+    border-radius: 0.5em;
+    background: var(--button-color);
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    width: 100%;
+  
+
+    
+
+}
+
+.favImg {
+    border-radius: 50%;
+    width: 100%;
+}

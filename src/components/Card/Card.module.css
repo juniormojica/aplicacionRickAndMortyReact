@@ -7,6 +7,10 @@
     display: flex;
     flex-direction: column;
     
+    
+}
+.cardContainer:hover{
+    background-color: var(--hoover-action);
 }
 
 .cardImg {
@@ -15,20 +19,20 @@
 }
 
 .close {
-    color: white;
-    font-size: 1.2rem;
+    
+    font-size: 2rem;
     font-weight: 600;
-    border-radius: 20%;
-    background-color: rgb(129, 85, 139);
-    width: 20%;
-margin: auto;
+    border: none;
+    background-color: transparent;
+    
+    margin: auto;
 }
 .close:hover {
-    color: rgb(0, 255, 13);
-    font-size: 1.2rem;
+    color: black;
+    font-size: 2rem;
     font-weight: 600;
-    border-radius: 20%;
-    background-color: rgb(129, 85, 139);
+    border-radius: 50%;
+    background-color: var(--button-color);
     width: 20%;
     margin: auto;
 }
@@ -44,19 +48,38 @@ margin: auto;
     display: flex;
     justify-content: flex-end;
 }
-.addFavorite{
+
+.favorite{
     width: 30%;
     padding: 0.5rem;
     color: white;
      background-color: rgb(129, 85, 139);
+     
     
 }
 
-.addFavorite:hover{
-
-    background-color: rgb(121, 85, 129);
+.button { 
+    background: transparent;
+    border: none;
 }
 
 .favoriteStatus{
     background-color: red;
 }
+
+ @media(min-width: 767px ){
+    .cardContainer {
+        padding: 4rem;
+        border: 2px solid white;
+    
+        background: var(--button-color);
+        display:flex;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 0.8rem;
+
+
+
+    }
+} 

@@ -1,12 +1,14 @@
 *{
   --main-color :rgb(64, 64, 75);
-  --button-color :rgb(19, 15, 15);
-  --font-color :rgb(18, 223, 52);
+  --button-color :rgb(110, 204, 175);
+  --font-color :rgb(0, 0, 0);
   --back-ground-button-color :rgb(129, 85, 139);
+  --hoover-action : rgb(173, 231, 146);
+  --last-use : rgb(243, 236, 176);
    
 }
 body {
-  background-color: rgb(64, 64, 75);
+  background-color: rgb(32, 38, 46);
   margin: 0;
   padding: 0;
   box-sizing: border-box;

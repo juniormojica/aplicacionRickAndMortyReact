@@ -4,6 +4,8 @@ export const GET_CHARACTERS_DETAIL = "GET_CHARACTERS_DETAIL"
 export const ADD_FAVORITE = "ADD_FAVORITE"
 export const DELETE_CHARACTER = "DELETE_CHARACTER"
 export const SALUDAR = "SALUDAR"
+export const ClEAN_FAVORITES = "SALUDAR"
+export const DELETE_FAVORITE = "DELETE_FAVORITE"
 
 
 
@@ -22,22 +24,30 @@ export const getCharactersDetail = (id) => {
         return dispatch({ type: GET_CHARACTERS_DETAIL, payload: response.data })
     }
 }
-export const addFavorite = (id) => {
-    return async function (dispatch) {
-        const response = await axios.get(`https://rickandmortyapi.com/api/character/${id}`)
-        return dispatch({ type: ADD_FAVORITE, payload: response.data.results })
-    }
+export const addFavorite = (favorite) => {
+
+    return { type: ADD_FAVORITE, payload: favorite }
+
 
 }
+export const deleteFavorite = (id) => {
+
+    return { type: DELETE_FAVORITE, payload: id }
+
+
+}
+
 export const deleteCharacter = (id) => {
 
     return { type: DELETE_CHARACTER, payload: id }
 }
 
+export const cleanFavorites = () => {
 
-export const saludar = () => {
-
-    return { type: SALUDAR, payload: "Hola" }
+    return { type: ClEAN_FAVORITES, payload: [] }
 }
+
+
+
 
 

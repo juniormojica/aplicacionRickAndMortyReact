@@ -1,29 +1,29 @@
 .cardDetail {
-    
+
     width: 25%;
     background: var(--button-color);
-   color: black;
-   align-items: center;
-   
-   margin: auto;
-   margin-top: 1rem;
-   border-radius: 5%;
-   
+    color: black;
+    align-items: center;
+
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 5%;
+
 }
 
 
-.charInfo{
+.charInfo {
     padding: 0.5em;
 }
 
-.charImg{
+.charImg {
     border-radius: 0.5em;
     height: 40vh;
     width: 17vw;
     border-radius: 50%;
 }
 
-.backButton{
+.backButton {
     font-size: 1.1rem;
     width: 20%;
     padding: 0.3em;
@@ -34,10 +34,20 @@
     background-color: var(--button-color);
 }
 
-.backButton:hover { 
+.backButton:hover {
     font-size: 1.2rem;
     background-color: var(--hoover-action);
     color: black;
     font-weight: 600;
-    border-color :transparent;
+    border-color: transparent;
+}
+
+.aboutContainer {
+    padding: 0.5rem;
+  text-align: justify;
+}
+.aboutContainer p {
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 1.2rem;
 }

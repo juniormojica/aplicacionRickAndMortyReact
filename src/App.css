@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 .App {
   text-align: center;
@@ -38,4 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media(max-width:767px){
+  * {
+      box-sizing: border-box;
+      width: 100%;
+    }
 }

@@ -14,8 +14,12 @@ export default function SearchBar(props) {
     }
 
     return (<>
+
         <h1 className={s.tittle}>Rick And Morty App</h1>
-        <div className={s.searchContainer} >
+        <h3 className={s.intro}>Preparate para descubrir los personajes mas iconicos de la serie RICK AND MORTY
+            Conoce sus Detalles y SELECCIONA TUS FAVORITOS
+        </h3>
+        {/* <div className={s.searchContainer} >
 
             <input
                 onChange={getIdCharacter}
@@ -23,11 +27,8 @@ export default function SearchBar(props) {
                 className={s.searchInput}
             />
 
-            <button
-
-                className={s.searchButton}
-            > Agregar</button>
-        </div>
+            <button className={s.searchButton} > Agregar</button>
+        </div> */}
 
     </>
 

@@ -1,12 +1,15 @@
 .tittle {
-    font-size: 5rem;
+    font-size: 4rem;
     background-color:var(--button-color);
-    color: white;
+    color: black;
  
     font-family: 'Indie Flower', cursive;
     
 }
-
+.intro {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
 .searchContainer {
     height: 4em;
     width: 100%;
