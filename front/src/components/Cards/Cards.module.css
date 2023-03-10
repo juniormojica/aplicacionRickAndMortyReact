@@ -1,0 +1,23 @@
+.cardsContainer{
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(27rem,1fr));
+    
+    width: 80%;
+   
+    margin: auto;
+}
+
+
+@media(max-width: 767px) {
+    .cardsContainer {
+            display: inline-block;
+
+           align-items: center;
+            width: 80%;
+            
+           
+
+
+
+    }
+}

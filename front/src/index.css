@@ -1,0 +1,26 @@
+*{
+  --main-color :rgb(64, 64, 75);
+  --button-color :rgb(110, 204, 175);
+  --font-color :rgb(0, 0, 0);
+  --back-ground :rgb(32, 38, 46);
+  --hoover-action : rgb(173, 231, 146);
+  --last-use : rgb(243, 236, 176);
+   
+}
+body {
+  
+  background-color: rgb(32, 38, 46);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

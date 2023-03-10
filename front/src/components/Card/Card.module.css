@@ -1,0 +1,102 @@
+.cardContainer {
+    padding: 4rem;
+    border: 2px solid white;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    background: var(--button-color);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cardContainer:hover{
+    background-color: var(--hoover-action);
+}
+
+.cardImg {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.close {
+    
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    
+    margin: auto;
+}
+.close:hover {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: var(--button-color);
+    width: 20%;
+    margin: auto;
+}
+.charName {
+    text-decoration: none;
+    color:var(--font-color)
+}
+
+.charName:hover {
+    color: white
+}
+.likeContainer{ 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.favorite{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+   color: beige;
+   
+     
+    
+}
+
+.favoriteActive:hover{
+font-size: 3.5rem;
+}
+.favoriteStatus{ 
+color: red;
+}
+
+.button { 
+    background: transparent;
+    border: none;
+    width: 20%;
+    
+}
+
+
+
+
+ @media( max-width: 767px ){
+    .cardContainer {
+        padding: 4rem;
+        border: 2px solid white;
+    
+        background: var(--button-color);
+        display:flex;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 0.8rem;
+
+    }
+        .button {
+       
+            width: 40%;
+    
+        }
+    .favorite{
+        size: 2rem;
+        
+    }
+} 
